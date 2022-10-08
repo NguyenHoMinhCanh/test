@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#hidden_pix_1,
+.section_pointer,
+#hidden_pix_6
+{
+    display: none;
+}
+
+.navbar-header button {
+    display: none;
+}
+
+#section_header_2_dark .containerss {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#navbar-collapse-02 {
+    display: flex;
+}
+
+#navbar-collapse-02 ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#navbar-collapse-02 .icon-item a {
+    color: #cccccc;
+}
+
+#navbar-collapse-02 .propClone {
+    padding: 20px;
+}
+
+#navbar-collapse-02 .propClone a {
+    text-decoration: none;
+    color: #cccccc;
+}
+
+i{
+    color:  #cccccc;
+    font-size: 20px;
+    padding: 0px;
+}
+
+#navbar-collapse-02 .propClone .text_span {
+    color: #ffcc33;
+}
+
+#section_pix_4 video{
+    position: relative;
+    width: 100%;
+    filter: brightness(0.5); /*giảm độ sáng cho bức ảnh or video */
+}
+
+#section_pix_4 .sixteen.columns.context_style {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    transform: translateY(-400px);
+}
+
+#section_pix_4 .sixteen.columns.context_style .title_style {
+    margin: 20px 0;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+#section_pix_4 .subtitle_style, .email_subscribe, .note_st {
+    margin-bottom: 20px;
+}
+#section_pix_4 .note_st {
+    font-size: 13px;
+    color: #f1f1f1;
+}
+#section_pix_4 .creative_h_text {
+    width: 480px;
+    /* word-break: initial; */
+    display: inline-block;
+    color: #f1f1f1;
+}
+
+#section_pix_4 .email_subscribe #contact_form {
+    display: inline-flex;
+    width: 325.7px;
+    height: 35px;
+    border: 10px solid #000;
+    border-radius: 5px;
+}
+
+#email, #subscribe_btn_1 {
+    border: none;
+    padding: 10px;
+}
+
+#subscribe_btn_1 {
+    background-color: #f1c232;
+    color: white;
+}
+
+#section_pix_4 .email_subscribe #email {
+    border-right: 10px solid;
+}
+
+#section_university_5 .sixteen.columns, 
+#section_university_5 .psingle_item,
+#section_university_5 .substyle.pix_builder_bg {
+    display: flex;
+}
+
+#section_university_5 .substyle.pix_builder_bg {
+    flex-direction: column;
+}
+
+#section_university_5 .container {
+    justify-content: center;
+    display: inline-flex;
+    width: 100%;
+}
+
+#section_university_5 .container .sixteen.columns {
+    width: 1000px;
+}
+
+#section_university_5 .container .zone_left,
+#section_university_5 .container .omega,
+#section_university_5 .container .icon_st,
+#section_university_5 .container .text_st {
+    margin: 20px;
+}
+
+#section_university_5 .container .title_st {
+    line-height: 3;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:normal;
+}
+#section_university_5 .container .pix_text {
+    color: #959595;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#section_university_5 .container .subject_st {
+    color: #b6b6b6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+#section_university_5 .container .omega {
+    background-color: #ebeaea;
+    
+}
+
+#section_university_5 .container .omega .substyle.pix_builder_bg {
+    width: 400px;
+    padding: 30px 20px;
+}
+
+#section_university_5 .container .omega #contact_form {
+    display: flex;
+    flex-direction: column;
+}
+
+#section_university_5 .container .omega #contact_form .pix_text {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #959595;
+}
+
+#section_university_5 .container .omega #contact_form #countries,
+#section_university_5 .container .omega #contact_form #submit_btn_6 {
+    width: 100%;
+}
+
+#section_university_5 .container .omega #contact_form #submit_btn_6 {
+    background-color: #7cc576;
+}
+
+#section_ecourse_7 .container .bg_foot {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f6f6f6;
+    padding: 20px 0;
+}
+#section_ecourse_7 .container .bg_foot .socbuttons {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+#section_ecourse_7 .container .bg_foot .socbuttons .soc_icons{
+    margin: 0 10px;
+}
+
+#section_ecourse_7 .container .bg_foot ul {
+    list-style-type: none;
+    display: flex;
+}

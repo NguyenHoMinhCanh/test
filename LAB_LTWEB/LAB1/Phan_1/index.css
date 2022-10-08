@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.body {
+    border: 3px solid #000
+}
+
+.header, .left, .content, .footer {
+    margin: 2px;
+    border: 1px solid #000
+}
+
+.header, .footer {
+    background-color: #d3d3d3;
+}
+
+.left { 
+    background-color: #eee8aa;
+}
+
+.left ul { 
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin: 0px;
+    height: 200px;
+}
+
+h1{
+    display: flex;
+    margin-top: 0px;
+}
+
+h3,.content p, .footer p{
+    margin: 0px;
+}
+.total{
+    display: grid; 
+    grid-template-columns: 20% 80%; 
+}
+.content{
+    flex-direction: row;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}

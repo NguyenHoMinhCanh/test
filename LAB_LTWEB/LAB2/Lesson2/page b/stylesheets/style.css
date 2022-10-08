@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: black;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#page #section_text_2 .container {
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+    background-color: #f3f3f3;
+}
+
+#page #section_text_2 .container .eight {
+    align-self: center;
+}
+
+#page #section_text_2 .container .omega .pix_button {
+    background: #f77825;
+    text-decoration: none;  
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffff;
+    border-radius: 5px;
+}
+
+#page #section_header_1 .container .containerss {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+#page #section_header_1 .container .navbar-header {
+    display: none;
+}
+.carousel-inner{
+    background-color: #dadada;
+    /* padding: 35px 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+  }
+  .carousel-caption.editContent{
+    position: absolute;
+    color: #fff;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-500px);
+  }
+  .carousel-caption.editContent h3{
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .carousel-caption.editContent p{
+    color: #dadada;
+    font-size: 20px;
+  }
+#page #section_header_1 .container .padding_25 ul,
+#page #section_header_1 .container .collapse ul {
+    list-style: none;
+}
+
+#page #section_header_1 .container .padding_25 .bottom-icons li {
+    display: inline-block;
+}
+
+#page #section_header_1 .container .padding_25 .bottom-icons li a {
+    line-height: 46px;
+    padding: 0 4px;
+}
+
+#page #section_header_1 .container .padding_25 .bottom-icons li a img {
+    vertical-align: middle;
+}
+
+#page #section_header_1 .container #navbar-collapse-02 .nav li {
+    display: inline-block;
+}
+#page #section_header_1 .container #navbar-collapse-02 .nav li a {
+    text-decoration: none;
+    color: #7f7f7f;
+    line-height: 46px;
+    padding: 0 24px;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+}
+
+#page #section_header_1 {
+    background-color: white;
+}
+
+#page .pixfort_pix_slider .container .sixteen #myCarousel .carousel-indicators {
+    display: none;
+}
+
+#page .pixfort_pix_slider .container .sixteen #myCarousel .carousel-inner {
+    background-color: #eeeeee;
+    width: 100% ;
+}
+
+/* #page .pixfort_pix_slider .container .sixteen #myCarousel .carousel-inner .item{
+    position: relative; 
+}  
+*/
+
+#page .pixfort_pix_slider .container .sixteen #myCarousel .carousel-inner .carousel-caption {
+    position: absolute;
+}
+#page .pixfort_pix_slider .container .sixteen #myCarousel .carousel-inner img {
+    position: relative;
+    overflow: hidden;
+}
+
+#page .gym_life .top_padding {
+    background-color: white;
+}
+
+#page .center_text .container {
+    background-color: #f3f3f3;
+}
+
+#page .gym_life .top_padding,
+#page  .center_text .container {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#page .gym_life .top_padding .part_st {
+    margin: 35px;
+    line-height: 3;
+}
+
+#page .gym_life .top_padding .part_st img {
+    border-radius: 50%;
+}
+
+#page .gym_life .top_padding .gym_st span {
+    color: black;
+    font-weight: bold;
+}
+
+#page .gym_life .top_padding .part_st a {
+    text-decoration: none;
+    background: #ff8833;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+}
+
+#page .gym_life .top_padding .part_st .link_3_btn {
+    line-height: 5;
+}
+
+#page .gym_life .top_padding .gym_text {
+    width: 200px;
+    line-height: 1.5;
+    color: #acaca9;
+}
+
+#page  .center_text .container ul {
+    list-style-type: none;
+}
+
+#page  .center_text .container .one-third {
+    margin: 8px 10px 50px 10px;
+    line-height: 3;
+    color: #999999;
+    width: 250px;
+}
+
+#page  .center_text .container .one-third .flat_pricing {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #999999;
+}
+
+#page  .center_text .container .one-third .big_title {
+    font-size: 35px;
+}
+
+#page  .center_text .container .one-third .blue_text {
+    color: #2dc0e8;
+}
+
+#page  .center_text .container .one-third .orange {
+    color: #f77825;
+}
+
+#page  .center_text .container .one-third .active_bg_open {
+    text-decoration: none;
+    padding: 15px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#page  .center_text .container .one-third .orange_bg {
+    background-color: #f77825;
+}
+
+#page  .center_text .container .one-third .blue_bg {
+    background-color: #2dc0e8;
+}
+
+#page #hidden_pix_15
+{
+    display: none;
+}
+
+#page #section_party_3 .container {
+    width: 100%;
+    background-color: #191919;
+}
+
+#page #section_party_3 .container .text_input {
+    background-color: #151515;
+    margin: 40px 0;
+    padding: 30px 10px;
+    border: 2px solid #292929;
+}
+
+#page #section_party_3 .container,
+#page #section_party_3 #contact_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#page #section_party_3 .container .headtext_style {
+    color: white;
+    margin: 20px 0;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#page #section_party_3 .subtext_style {
+    width: 300px;
+    color: #808080;
+    margin: 20px;
+}
+
+#page #section_party_3 .container .pix_text {
+    margin: 10px 0 ;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#page #section_party_3 .container #submit_btn_15 {
+    background-color: #2679e7;
+    color: white;
+    font-size: 15px;
+}
+
+#page #section_party_3 .container .segment {
+    width: 60px;
+    height: 8px;
+    background-color: #1c8ff5;
+    text-align: center;
+    display: inline-flex;
+}
+
+#page #section_party_4 .sixteen {
+    display: flex;
+    justify-content: space-around;
+    background-color: #151515;
+    padding: 20px 0;
+    color: #808080;
+}
+
+#page #section_party_4 .sixteen .pixfort_st {
+    color: #188ff5;
+}
+
+#page #section_party_4 .sixteen .socbuttons {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#page #section_party_4 .sixteen .socbuttons .soc_icons {
+    margin: 0 10px;
+}
+
+#page #section_party_4 .sixteen .socbuttons .soc_icons i {
+    padding: 0 5px;
+}
+
+#page #section_party_4 .sixteen ul {
+    list-style-type: none;
+    display: flex;
+}
