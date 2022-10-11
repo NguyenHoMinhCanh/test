@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.form {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e6e6e6;
+    padding: 5px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 15px;
+    color: #353534;
+}
+
+.content div {
+    display: flex;
+    position: relative;
+    padding: 5px;
+}
+
+.content input,
+.content textarea {
+    padding:  20px 5px 2px 10px;
+    width: 100%;
+    border-radius: 4px;
+    height: 20px;
+    font-size: 10px;
+    background-color: #f7f7f7;
+    border: none;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+.content textarea {
+    height: 60px;
+    padding: 25px 5px 2px 10px;
+    background-color: white;
+}
+
+.content label {
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 8px;
+    position: absolute;
+    padding: 8px 10px 0 10px;
+}
+
+.content__flex .iteam {
+    padding: 0;
+}
+
+.content__flex .left {
+    padding-left: 5px;
+}
+
+.content__flex .right {
+    padding-right: 5px;
+}
+
+.form_submit {
+    justify-content: center;
+}
+.form_submit input {
+    cursor: pointer;
+    background-color:#353534;
+    border-radius: 15px;
+}
+.form_submit > label {
+    padding-top: 5px;
+    cursor: pointer;
+    background-color:#353534;
+    color: #d5d5d9;
+    text-transform: none;
+}
