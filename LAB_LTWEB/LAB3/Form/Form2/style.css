@@ -2,9 +2,45 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    font-family: "Poppins";
+}
 .sign-in{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+img{
     width: 100%;
     height: 100%;
-    background-image: url("backgroud.jpg");
+}
+.header{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.sign-in .container {
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white ;
+}
+form{
+    padding: 20px 40px;
+}
+input{
+    border-radius: 4px;
+    padding: 10px 20px;
+    outline:none;
+    margin-top: 10px;
+    position: relative;
+}
+label{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+   
 }
