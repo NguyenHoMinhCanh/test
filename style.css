@@ -1,0 +1,82 @@
+*{
+
+    padding : 0;
+
+    margin: 0;
+
+
+}
+
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: yellow;
+
+}
+
+.main{
+
+    width: 200px;
+
+    height: 200px;
+
+
+    border-radius: 50%;
+
+  background-color: #014687;
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+  box-shadow: 0 0 0px 40px #C61620, 0 0 0px 80px #E3E4E8,0 0 0 115px #C61620;
+}
+
+.main2{
+
+
+    width: 150px;
+
+    height: 150px;
+
+    background-color: yellow;
+
+
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%,
+     50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%
+
+    
+      );
+
+
+
+}
+
+.tamgiac{
+
+    width: 0px;
+
+    height: 0px;
+
+    border-left: 50px solid transparent;
+
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid red;
+
+
+
+
+}
