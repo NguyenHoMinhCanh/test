@@ -19,60 +19,72 @@
                             <p>account</p>
                             <div class="account__item">
                                 <i class="fa-solid fa-user"></i>
-                                <input type="text" value="full name">
+                                <input type="text" placeholder="full name">
                             </div>
                             <div class="account__item">
                                 <i class="fa-solid fa-envelope"></i>
-                                <input type="email"  value="email address">
+                                <input type="email"  placeholder="email address">
                             </div>
                             <div class="account__item">
                                 <i class="fa-solid fa-lock"></i>
-                                <input type="password"  value="password">
+                                <input type="password"  placeholder="password">
                             </div>
                         </div>
                         <div class="bth-gd">
                             <div class="birth">
                                 <p>Date of Birth</p>
                                 <div>
-                                    <input type="text" value="DD">
-                                    <input type="text" value="MM">
-                                    <input type="text" value="YYYY">
+                                    <input type="text" placeholder="DD">
+                                    <input type="text" placeholder="MM">
+                                    <input type="text" placeholder="YYYY">
                                 </div>
                             </div>
                             <div class="gender">
                                 <p>gender</p>
-                                <input type="submit" value="male">
-                                <input type="submit" value="female">
+                                <div>
+                                    <input type="submit" value="male">
+                                    <input type="submit" value="female">
+                                </div>
                             </div>  
                         </div>
                         <div class="payment">
+                            <p>payment details</p>
                             <div class="payment__card">
-                                <i class="fa-solid fa-credit-card"></i>
-                                <input type="button" value="Credit Card">
-                                <i class="fa-brands fa-cc-paypal"></i>
-                                <input type="button" value="Paypal">
+                                <div class="payment__card--iteam">
+                                    <i class="fa-solid fa-credit-card right"></i>
+                                    <input type="button" value="Credit Card">
+                                </div>
+                                <div class="payment__card--iteam">
+                                    <i class="fa-brands fa-cc-paypal left"></i>
+                                    <input type="button" value="Paypal">
+                                </div>
                             </div>
                             <div class="payment__number">
                                 <i class="fa-regular fa-credit-card"></i>
-                                <input type="text">
+                                <input type="text"  placeholder="Card Numder">
                             </div>
-                            <div class="payment__iteam">
-                                <div class="payment__cvc">
-                                    <i class="fa-solid fa-user"></i>
-                                    <input type="text">
-                                </div>
-                                <div class="mon_year">
-                                    <input type="text" value="01 Jan">
+                            <div class="payment__cvc">
+                                <i class="fa-solid fa-user"></i>
+                                 <input type="text" placeholder="Card CVC">
+                            </div>
+                            <div class="mon_year">
+                                <div class="mon">
+                                    <input type="text" placeholder="01 Jan">
                                     <i class="fa-solid fa-chevron-down"></i>
-                                    <input type="text" value="2015">
+                                </div>
+                                <div class="year">
+                                    <input type="text" placeholder="2015">
                                     <i class="fa-solid fa-chevron-down"></i>
                                 </div>
                             </div>
                         </div>
                         <div class="form__footer">
                             <p>Terms and Conditions</p>
-                            <input type="checkbox" name="" id="">I accept the terms and conditions for signing up to this service, and hereby confirm i have read the
-                            privacy policy
+                            <div class="content">
+                                <input type="checkbox" name="" id="">I accept the terms and conditions 
+                                for signing up to this service, and hereby confirm i have read the
+                                privacy policy
+                            </div>
                         </div>
                     </form>
                 </div>

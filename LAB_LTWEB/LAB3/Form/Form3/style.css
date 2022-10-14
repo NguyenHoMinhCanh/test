@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins';
 }
 
 .register {
@@ -11,9 +12,170 @@
 }  
 
 .container {
-    width: 400px;
+    width: 600px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: #e3e3e3;
+
+}
+
+form{
+    margin: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.account__item,
+.payment__number,
+.payment__cvc {
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+}
+input{
+    outline: none;
+}
+.account__item input,
+.payment__number input{
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    height: 38px;
+}
+
+.account__item input[placeholder],
+.payment__number input[placeholder],
+.payment__cvc input[placeholder] {
+    padding-left: 50px;
+    color: #b9b9b9;
+}
+
+.account__item i,
+.payment__number i,
+.payment__cvc i {
+    position: absolute;
+    padding: 10px;
+    border: 1px solid #e7e7e7;
+    color: #b9b9b9;
+}
+.bth-gd,
+.birth > div,
+.gender > div {
+    display: flex;
+    margin-top: 20px;
+}
+.birth, .gender,
+.payment__card input {
+    width: 50%;
+}
+
+.birth input[placeholder] {
+    width: 80px;
+    transform: translate(1px, 0px);
+    margin-right: 10px;
+    padding: 10px 20px 10px 10px;
+}
+
+.gender input[value] {
+    width: 135px;
+    padding: 10px 20px 10px 10px;
+}
+.payment {
+    width: 540px;
+    margin-top: 20px;   
+}
+.payment input {
+    height: 38px;
+    margin-top: 20px;
+}
+.payment__card {
+    display: flex;
+}
+
+.payment__card--iteam {
+    position: relative;
+    width: 50%;
+}
+
+.payment__card--iteam input {
+    width: 100%;
+}
+
+.payment__card--iteam i {
+    position: absolute;
+}
+.right {
+    top: 30px;
+    left: 70px;
+}
+.left {
+    top: 30px;
+    left: 85px;
+}
+
+.payment__number input {
+   margin-top: 0px; 
+}
+
+.payment__cvc {
+    float: left;
+}
+
+.payment__cvc, .mon_year{
+    width: 50%;
+}
+
+.mon_year {
+    display: flex;
+    float: right;
+}
+
+.mon_year input {
+    width: 100%;
+    transform: translate(1px, 0px);
+}
+
+.payment__cvc input {
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    height: 38px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+.mon, .year {
+    position: relative;
+}
+
+.mon_year i {
+    position: absolute;
+    top: 30px;
+    left: 110px;
+}
+
+.form__footer {
+    margin-top: 100px;
+}
+
+.form__footer .content {
+    margin-top: 20px;
+    color: #b9b9b9;
+}
+
+p {
+    color: #7ed321;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.content input {
+    margin-right: 10px;
+}
+
+.payment__card--iteam input:hover,
+.gender input:hover {
+    background-color: #7ed321;
+    cursor: pointer;
 }
