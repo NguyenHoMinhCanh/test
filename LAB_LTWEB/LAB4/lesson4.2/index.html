@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Lesson 4.2</title>
+</head>
+<body>
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          font: 'Poppins';
+          box-sizing: border-box;
+        }
+        input,
+        button {
+            outline: none;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background-image: linear-gradient(to right,#12c2e9, #c471ed, #f64f59);
+        }
+        input{
+            padding: 15px;
+            margin: 15px;
+            border-radius: 10px;
+            border: 1px solid #eee;
+        }
+        button{
+            padding: 15px;
+            border-radius: 10px;
+            background-color: #FF6651;
+            cursor: pointer;
+            border: none;
+            text-transform: uppercase;
+            color: #fff;
+            transition: 0.5s;
+        }
+        button:hover{
+            background-color: gray;
+        }
+    </style>
+            <input type="text" class="input__a" placeholder="Nhập hệ số a">
+            <input type="text" class="input__b" placeholder="Nhập hệ số b">
+            <input type="text" class="input__c" placeholder="Nhập hệ số c">
+            <button class="submit__btn" >submit</button>
+    <script src="scipt.js"></script>
+</body>
+</html>
