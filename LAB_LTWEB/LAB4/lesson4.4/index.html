@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Lesson 4.4</title>
+    
+    
+</head>
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins";
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        input,
+        button,
+        textarea{
+            outline: none;
+            margin-top: 20px;
+            width: 50%;
+            border-radius: 10px;
+            font-size: 18px;
+            padding: 15px 20px;
+        }
+        textarea {
+            width: 50%;
+            border: 1px solid #353636;
+        }
+
+        input {
+            border: 1px solid #353636;
+
+        }
+        button{
+            padding: 20px;
+            border: none;
+            border-radius: 30px;
+            color: #fff;
+            background-color: #353636;
+            cursor: pointer;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        button:hover{
+            background-color: rgb(192, 43, 43);
+        }
+    </style>
+    <textarea name="" id="text__area" cols="20" rows="5" placeholder="Your text here..."></textarea>
+    <input type="text" placeholder="Your text here...">
+    <br>
+    <button>check</button>
+    <script src="script.js"></script>
+</body>
+</html>
